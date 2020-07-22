@@ -15,7 +15,7 @@ class BasicToken extends codec_1.Struct {
             total_supply: custom_types_161_1.RawAmount,
             decimals: "u8",
             owner: "AccountId",
-            pending_owner: "Option<AccountId>",
+            pending_owner: "AccountId",
             mintable: primitive_1.bool,
             transferable: primitive_1.bool,
             burnable: primitive_1.bool
